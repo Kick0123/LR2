@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, Arial;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #e7e7fc;
+}
+
+.pub {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2d3a54;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background-color: #778db8;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    /* background-color: rgb(155, 200, 255); */
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.controls .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.controls .button:hover {
+    background-color: #0056b3;
+}
+
+.search-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.publications-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.publications-table th, .publications-table td {
+    padding: 10px;
+    border: 2px solid #8d8d8d;
+    text-align: left;
+}
+
+.publications-table th {
+    background-color: #f5f5f5;
+}
+
+.publications-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    vertical-align: middle;
+}
+
+
+.user-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background-color: rgb(173, 222, 241); */
+}
+
+.username {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.user-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
